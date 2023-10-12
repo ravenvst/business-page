@@ -17,6 +17,7 @@ h1 {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    margin: 0;
 }
 
 h2 {
@@ -28,22 +29,32 @@ h2 {
 .hero-left p, li {
     font-size: 18px;
     color: #E5E7EB;
+    
+}
+
+.hero-left {
+    width: 50%;
 }
 
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
     margin-right: auto;
+  
 }
 
 button {
     background-color: #3882F6;
+    padding: 6px 23px;
+    border-radius: 10px;
+    color: #F9FAF8;
 }
 
 ul {
     list-style-type: none;
     display: flex;
     gap: 20px;
+    padding-inline-start: 0;
 }
 
 img {
@@ -51,12 +62,14 @@ img {
 }
 
 .hero img {
-    width: 40%;
-    height: auto;
+    width: 43%;
+    /*height: auto;*/
+    margin-left: auto;
 }
 
 .hero {
     display: flex;
+    padding: 10% 0;
 }
 
 section {
