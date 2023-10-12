@@ -27,6 +27,10 @@ h2 {
 
 }
 
+h3 {
+    margin: 0px;
+}
+
 .hero-left p, li {
     font-size: 18px;
     color: #E5E7EB;
@@ -121,10 +125,22 @@ section.gallery-section {
     color: #E5E7EB;
     display: flex;
     flex-direction: row;
+    margin: 6%;
+    padding: 3% 7%;
+    border-radius: 10px;
+    align-items: center;
 }
 
 footer {
     background-color: #1F2937;
     color: #F9FAF8;
     text-align: center;
+}
+
+.action div {
+    width: 70%;
+}
+
+.action button {
+    margin-left: auto;
 }
