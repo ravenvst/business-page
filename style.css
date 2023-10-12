@@ -83,13 +83,16 @@ section {
     align-self: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .gallery {
     display: flex;
     padding: 0 10% 7% 10%;
     
+}
+
+section.gallery-section {
+    align-items: center
 }
 
 .gallery img {
@@ -103,6 +106,14 @@ section {
     color: #1F2937;
     font-style: italic;
     font-weight: 200;
+    padding: 5% 20%;
+}
+
+.thor {
+    margin-top: -30px;
+    text-align: right; 
+    font-weight: 800;
+    font-size: 30px;
 }
 
 .action {
