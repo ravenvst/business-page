@@ -23,6 +23,7 @@ h1 {
 h2 {
     font-size: 36px;
     font-weight: 900;
+    margin: 4%;
 
 }
 
@@ -58,7 +59,13 @@ ul {
 }
 
 img {
-    width: 150px;
+    width: 130px;
+    
+}
+
+figcaption {
+    text-align: center;
+    padding: 2%;
 }
 
 .hero img {
@@ -81,7 +88,13 @@ section {
 
 .gallery {
     display: flex;
+    padding: 0 10% 7% 10%;
     
+}
+
+.gallery img {
+    border: 5px solid #3882F6;
+    border-radius: 10px; 
 }
 
 .quote{
