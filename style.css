@@ -78,3 +78,10 @@ section {
     font-style: italic;
     font-weight: 200;
 }
+
+.action {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    display: flex;
+    flex-direction: row;
+}
