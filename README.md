@@ -1,6 +1,6 @@
 # business-page
 
-A typical business page
+A blue business page made with flexbox 
 
 
 

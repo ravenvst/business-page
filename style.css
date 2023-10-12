@@ -5,6 +5,7 @@ header, section {
 body {
     display: flex;
     flex-direction: column;
+   
 }
 
 header {
@@ -63,8 +64,15 @@ ul {
 }
 
 img {
-    width: 130px;
+    width: 100%;
+    align-self: center;
     
+}
+
+figure {
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+   
 }
 
 figcaption {
@@ -91,17 +99,25 @@ section {
 
 .gallery {
     display: flex;
-    padding: 0 10% 7% 10%;
+    padding: 0 7% 7% 7%;
+    justify-content: center;
+    height: 30%;
+    gap: 5%;
+    
+    
     
 }
 
 section.gallery-section {
-    align-items: center
+    align-items: center;
+    
 }
 
 .gallery img {
     border: 5px solid #3882F6;
     border-radius: 10px; 
+    width: 170px;
+
 }
 
 .quote{
