@@ -1,3 +1,12 @@
+header, section {
+    padding: 0 10%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 header {
     background-color: #1F2937;
     display: flex;
@@ -10,7 +19,13 @@ h1 {
     color: #F9FAF8;
 }
 
-p, li {
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+
+}
+
+.hero-left p, li {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -32,10 +47,27 @@ ul {
 }
 
 img {
-    width: 400px;
+    width: 150px;
+}
+
+.hero img {
+    width: 40%;
     height: auto;
 }
 
 .hero {
     display: flex;
 }
+
+section {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery {
+    display: flex;
+    
+}
+
