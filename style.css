@@ -71,3 +71,10 @@ section {
     
 }
 
+.quote{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 200;
+}
