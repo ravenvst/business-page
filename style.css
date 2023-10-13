@@ -72,7 +72,9 @@ img {
 figure {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    width: 100%;
    
+       
 }
 
 figcaption {
@@ -102,7 +104,8 @@ section {
     padding: 0 7% 7% 7%;
     justify-content: center;
     height: 30%;
-    gap: 5%;
+    gap: 7%;
+    width: 60%;
     
     
     
@@ -116,7 +119,8 @@ section.gallery-section {
 .gallery img {
     border: 5px solid #3882F6;
     border-radius: 10px; 
-    width: 170px;
+    width: 100%;
+   
 
 }
 

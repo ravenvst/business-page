@@ -1,6 +1,6 @@
 # business-page
 
-A blue business page made with flexbox 
+A blue landing page made with flexbox 
 
 
 
