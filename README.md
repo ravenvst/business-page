@@ -7,7 +7,8 @@ A blue landing page made with flexbox
 
 -------------------------------------------
 
-Photo credits:
+Images are free from Pexels.
+
 Turtle by Daniel Torobekov
 https://www.pexels.com/@alohaphotostudio/
 https://www.instagram.com/danitoro312/
